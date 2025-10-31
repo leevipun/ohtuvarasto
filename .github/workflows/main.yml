@@ -27,4 +27,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
       - name: Pylint check
-        run: pylint src
+        run: poetry run pylint src
