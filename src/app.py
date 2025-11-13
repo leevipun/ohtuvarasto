@@ -138,4 +138,4 @@ def api_add_item(wid):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
